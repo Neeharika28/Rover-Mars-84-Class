@@ -10,11 +10,11 @@ rove_image="rover.png";
 function add(){
 background_image=new Image();
 background_image.onload=uploadBackground;
-background_image=bg_image;
+background_image.src=bg_image;
 
 rover_image=new Image();
 rover_image.onload=uploadRover;
-rover_image=rove_image;
+rover_image.src=rove_image;
 }
 
 function uploadBackground(){
